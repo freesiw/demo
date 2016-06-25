@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#d3d3d3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/star" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="收藏"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/set_tv_collector"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:editable="false"
+        android:clickable="true"
+        android:onClick="jump"
+        android:text="收藏夹"
+        android:textSize="40sp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#f1457f"/>
+    <TextView
+        android:id="@+id/set_tv_history"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:editable="false"
+        android:clickable="true"
+        android:onClick="jump"
+        android:text="浏览记录"
+        android:textSize="40sp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"/>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#d3d3d3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/about" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="关于"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/set_tv_vs_info"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:editable="false"
+        android:clickable="true"
+        android:onClick="jump"
+        android:text="版本信息"
+        android:textSize="40sp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#f1457f"/>
+    <TextView
+        android:id="@+id/set_tv_fedback"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:editable="false"
+        android:clickable="true"
+        android:onClick="jump"
+        android:text="意见反馈"
+        android:textSize="40sp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"/>
+
+</LinearLayout>

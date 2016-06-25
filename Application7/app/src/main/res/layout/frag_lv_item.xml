@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/google_icon"/>
+    <TextView
+        android:id="@+id/item_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_toRightOf="@id/item_img"
+        android:text="新闻标题"/>
+    <TextView
+        android:id="@+id/item_tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_toRightOf="@id/item_img"
+        android:layout_below="@id/item_tv_title"
+        android:lines="2"
+        android:ellipsize="end"
+        android:text="萨达十大畅销书的佛号陪我女模抖擞撒的困难的覅东欧那必须形成女神
+        你发的皮尔破发斯蒂芬程序擦拭的此次只想吃撒v程序时打发的擦拭打算打算打打"
+        android:textColorHighlight="#dcdcdc"/>
+
+        <TextView
+
+            android:id="@+id/item_tv_rcount"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/item_tv_desc"
+            android:layout_toRightOf="@id/item_img"
+            android:textSize="14sp"
+            android:text="点击: 23"
+            android:gravity="bottom"/>
+        <TextView
+            android:id="@+id/item_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/item_tv_desc"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            android:text="2016/6/22/16:59"
+            android:gravity="bottom"/>
+
+
+</RelativeLayout>
